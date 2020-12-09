@@ -2,6 +2,8 @@
 #include "Player.h"
 #include <vector>
 
+
+
 int main() {
 
     Item cup(0003, "Cup", 65);
@@ -20,10 +22,8 @@ Item::displayNumberOfItems();
     int&& rRef = 250;
     std::vector<Item> vec;
 
-    vec.emplace_back(4, "Table", 77);
-    vec.push_back(cup);
 
-    lRef = rRef;
+
 delete couch;
 Item::displayNumberOfItems();
     return 0;
